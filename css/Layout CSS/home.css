@@ -1,0 +1,88 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background-image: url(../../image/bmg.gif);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: #212121;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+/*Behind Text*/
+.My-Name{
+    position: absolute;
+    width: 100vw;
+    height: 93vh;
+    font-size: calc(6vw + 2vh);
+}
+
+.My-Name>h1{
+    margin: 0;
+    -webkit-text-fill-color: transparent;
+    -webkit-text-stroke: 3px rgba(255, 255, 255, 0.5);
+    letter-spacing: 0.3em;
+}
+
+/*right image*/
+.image-group{
+    float: right;
+    width: 45vw;
+    height: 93vh;
+}
+
+.image_1{
+    position: absolute;
+    padding-left: 10em;
+    width: 40vw;
+    height: 93vh;
+}
+
+.image_2{
+    padding-left: 8em;
+    width: 40vw;
+    height: 93vh;
+}
+
+/*BUTTONS*/
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 93vh;
+    width: 55vw;
+    margin: 0;
+}
+
+.buttons{
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    height: 75vh;
+    width: 90%;
+    justify-content: center;
+    align-items: center;
+}
+
+.buttons>li{
+    margin: 4em 0;
+    padding: 10px;
+    border-radius: 20px;
+    background-color: rgba(255, 68, 0);
+}
+
+.buttons>li>a{
+    color: white;
+    font-size: calc(2vw + 2vh);
+    text-decoration: none;
+}
+
+.buttons>li:hover{
+    background-color: darkblue;
+    font-weight: bold;
+}
+
+/**/

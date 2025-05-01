@@ -1,0 +1,44 @@
+table {
+    width: 75%;
+    height: 100%;
+    font: 1em sans-serif;
+    color: white;
+}
+
+tr:first-child {
+    background-color: orangered;
+    font-weight: bold;
+    text-align: center;
+}
+
+td:first-child {
+    text-align: center;
+}
+
+tr:nth-child(2n+2) {
+    background-color: darkblue;
+}
+
+tr:nth-child(2n+3) {
+    background-color: green;
+}
+
+td {
+    padding: 5px 10px;
+}
+
+/*FACEBOOK PLUGINS*/
+.fb-plugins-container{
+    overflow-y: scroll;
+    overflow-x: hidden;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 20px auto;
+    padding: 0 10%;
+    background-color: white;
+    box-shadow: 0px 0px 4px grey;
+    max-width: 50%;
+    min-height: 200px;
+    max-height: 500px;
+}

@@ -1,0 +1,18 @@
+body{
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+h1{
+    text-align: center;
+    background-color: orangered;
+}
+
+li{
+    font-size: 25px;
+}
+
+li>a{
+    color: cyan;
+    text-decoration: none;
+}
